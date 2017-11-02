@@ -1,0 +1,598 @@
+/*!
+ * # Chronimi 1.0.0 - Icons
+ * http://github.com/chronimi/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+@font-face {
+  font-family: "foundation-icons";
+  src: url("../icons/foundation-icons.eot");
+  src: url("../icons/foundation-icons.eot?#ieinkx") format("embedded-opentype"),
+       url("../icons/foundation-icons.woff") format("woff"),
+       url("../icons/foundation-icons.ttf") format("truetype"),
+       url("../icons/foundation-icons.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ink-address-book:before,
+.ink-alert:before,
+.ink-align-center:before,
+.ink-align-justify:before,
+.ink-align-left:before,
+.ink-align-right:before,
+.ink-anchor:before,
+.ink-annotate:before,
+.ink-archive:before,
+.ink-arrow-down:before,
+.ink-arrow-left:before,
+.ink-arrow-right:before,
+.ink-arrow-up:before,
+.ink-arrows-compress:before,
+.ink-arrows-expand:before,
+.ink-arrows-in:before,
+.ink-arrows-out:before,
+.ink-asl:before,
+.ink-asterisk:before,
+.ink-at-sign:before,
+.ink-background-color:before,
+.ink-battery-empty:before,
+.ink-battery-full:before,
+.ink-battery-half:before,
+.ink-bitcoin-circle:before,
+.ink-bitcoin:before,
+.ink-blind:before,
+.ink-bluetooth:before,
+.ink-bold:before,
+.ink-book-bookmark:before,
+.ink-book:before,
+.ink-bookmark:before,
+.ink-braille:before,
+.ink-burst-new:before,
+.ink-burst-sale:before,
+.ink-burst:before,
+.ink-calendar:before,
+.ink-camera:before,
+.ink-check:before,
+.ink-checkbox:before,
+.ink-clipboard-notes:before,
+.ink-clipboard-pencil:before,
+.ink-clipboard:before,
+.ink-clock:before,
+.ink-closed-caption:before,
+.ink-cloud:before,
+.ink-comment-minus:before,
+.ink-comment-quotes:before,
+.ink-comment-video:before,
+.ink-comment:before,
+.ink-comments:before,
+.ink-compass:before,
+.ink-contrast:before,
+.ink-credit-card:before,
+.ink-crop:before,
+.ink-crown:before,
+.ink-css3:before,
+.ink-database:before,
+.ink-die-inkve:before,
+.ink-die-four:before,
+.ink-die-one:before,
+.ink-die-six:before,
+.ink-die-three:before,
+.ink-die-two:before,
+.ink-dislike:before,
+.ink-dollar-bill:before,
+.ink-dollar:before,
+.ink-download:before,
+.ink-eject:before,
+.ink-elevator:before,
+.ink-euro:before,
+.ink-eye:before,
+.ink-fast-forward:before,
+.ink-female-symbol:before,
+.ink-female:before,
+.ink-inklter:before,
+.ink-inkrst-aid:before,
+.ink-flag:before,
+.ink-folder-add:before,
+.ink-folder-lock:before,
+.ink-folder:before,
+.ink-foot:before,
+.ink-foundation:before,
+.ink-graph-bar:before,
+.ink-graph-horizontal:before,
+.ink-graph-pie:before,
+.ink-graph-trend:before,
+.ink-guide-dog:before,
+.ink-hearing-aid:before,
+.ink-heart:before,
+.ink-home:before,
+.ink-html5:before,
+.ink-indent-less:before,
+.ink-indent-more:before,
+.ink-info:before,
+.ink-italic:before,
+.ink-key:before,
+.ink-laptop:before,
+.ink-layout:before,
+.ink-lightbulb:before,
+.ink-like:before,
+.ink-link:before,
+.ink-list-bullet:before,
+.ink-list-number:before,
+.ink-list-thumbnails:before,
+.ink-list:before,
+.ink-lock:before,
+.ink-loop:before,
+.ink-magnifying-glass:before,
+.ink-mail:before,
+.ink-male-female:before,
+.ink-male-symbol:before,
+.ink-male:before,
+.ink-map:before,
+.ink-marker:before,
+.ink-megaphone:before,
+.ink-microphone:before,
+.ink-minus-circle:before,
+.ink-minus:before,
+.ink-mobile-signal:before,
+.ink-mobile:before,
+.ink-monitor:before,
+.ink-mountains:before,
+.ink-music:before,
+.ink-next:before,
+.ink-no-dogs:before,
+.ink-no-smoking:before,
+.ink-page-add:before,
+.ink-page-copy:before,
+.ink-page-csv:before,
+.ink-page-delete:before,
+.ink-page-doc:before,
+.ink-page-edit:before,
+.ink-page-export-csv:before,
+.ink-page-export-doc:before,
+.ink-page-export-pdf:before,
+.ink-page-export:before,
+.ink-page-inklled:before,
+.ink-page-multiple:before,
+.ink-page-pdf:before,
+.ink-page-remove:before,
+.ink-page-search:before,
+.ink-page:before,
+.ink-paint-bucket:before,
+.ink-paperclip:before,
+.ink-pause:before,
+.ink-paw:before,
+.ink-paypal:before,
+.ink-pencil:before,
+.ink-photo:before,
+.ink-play-circle:before,
+.ink-play-video:before,
+.ink-play:before,
+.ink-plus:before,
+.ink-pound:before,
+.ink-power:before,
+.ink-previous:before,
+.ink-price-tag:before,
+.ink-pricetag-multiple:before,
+.ink-print:before,
+.ink-prohibited:before,
+.ink-projection-screen:before,
+.ink-puzzle:before,
+.ink-quote:before,
+.ink-record:before,
+.ink-refresh:before,
+.ink-results-demographics:before,
+.ink-results:before,
+.ink-rewind-ten:before,
+.ink-rewind:before,
+.ink-rss:before,
+.ink-safety-cone:before,
+.ink-save:before,
+.ink-share:before,
+.ink-sheriff-badge:before,
+.ink-shield:before,
+.ink-shopping-bag:before,
+.ink-shopping-cart:before,
+.ink-shuffle:before,
+.ink-skull:before,
+.ink-social-500px:before,
+.ink-social-adobe:before,
+.ink-social-amazon:before,
+.ink-social-android:before,
+.ink-social-apple:before,
+.ink-social-behance:before,
+.ink-social-bing:before,
+.ink-social-blogger:before,
+.ink-social-delicious:before,
+.ink-social-designer-news:before,
+.ink-social-deviant-art:before,
+.ink-social-digg:before,
+.ink-social-dribbble:before,
+.ink-social-drive:before,
+.ink-social-dropbox:before,
+.ink-social-evernote:before,
+.ink-social-facebook:before,
+.ink-social-flickr:before,
+.ink-social-forrst:before,
+.ink-social-foursquare:before,
+.ink-social-game-center:before,
+.ink-social-github:before,
+.ink-social-google-plus:before,
+.ink-social-hacker-news:before,
+.ink-social-hi5:before,
+.ink-social-instagram:before,
+.ink-social-joomla:before,
+.ink-social-lastfm:before,
+.ink-social-linkedin:before,
+.ink-social-medium:before,
+.ink-social-myspace:before,
+.ink-social-orkut:before,
+.ink-social-path:before,
+.ink-social-picasa:before,
+.ink-social-pinterest:before,
+.ink-social-rdio:before,
+.ink-social-reddit:before,
+.ink-social-skillshare:before,
+.ink-social-skype:before,
+.ink-social-smashing-mag:before,
+.ink-social-snapchat:before,
+.ink-social-spotify:before,
+.ink-social-squidoo:before,
+.ink-social-stack-overflow:before,
+.ink-social-steam:before,
+.ink-social-stumbleupon:before,
+.ink-social-treehouse:before,
+.ink-social-tumblr:before,
+.ink-social-twitter:before,
+.ink-social-vimeo:before,
+.ink-social-windows:before,
+.ink-social-xbox:before,
+.ink-social-yahoo:before,
+.ink-social-yelp:before,
+.ink-social-youtube:before,
+.ink-social-zerply:before,
+.ink-social-zurb:before,
+.ink-sound:before,
+.ink-star:before,
+.ink-stop:before,
+.ink-strikethrough:before,
+.ink-subscript:before,
+.ink-superscript:before,
+.ink-tablet-landscape:before,
+.ink-tablet-portrait:before,
+.ink-target-two:before,
+.ink-target:before,
+.ink-telephone-accessible:before,
+.ink-telephone:before,
+.ink-text-color:before,
+.ink-thumbnails:before,
+.ink-ticket:before,
+.ink-torso-business:before,
+.ink-torso-female:before,
+.ink-torso:before,
+.ink-torsos-all-female:before,
+.ink-torsos-all:before,
+.ink-torsos-female-male:before,
+.ink-torsos-male-female:before,
+.ink-torsos:before,
+.ink-trash:before,
+.ink-trees:before,
+.ink-trophy:before,
+.ink-underline:before,
+.ink-universal-access:before,
+.ink-unlink:before,
+.ink-unlock:before,
+.ink-upload-cloud:before,
+.ink-upload:before,
+.ink-usb:before,
+.ink-video:before,
+.ink-volume-none:before,
+.ink-volume-strike:before,
+.ink-volume:before,
+.ink-web:before,
+.ink-wheelchair:before,
+.ink-widget:before,
+.ink-wrench:before,
+.ink-x-circle:before,
+.ink-x:before,
+.ink-yen:before,
+.ink-zoom-in:before,
+.ink-zoom-out:before {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.ink-address-book:before { content: "\f100"; }
+.ink-alert:before { content: "\f101"; }
+.ink-align-center:before { content: "\f102"; }
+.ink-align-justify:before { content: "\f103"; }
+.ink-align-left:before { content: "\f104"; }
+.ink-align-right:before { content: "\f105"; }
+.ink-anchor:before { content: "\f106"; }
+.ink-annotate:before { content: "\f107"; }
+.ink-archive:before { content: "\f108"; }
+.ink-arrow-down:before { content: "\f109"; }
+.ink-arrow-left:before { content: "\f10a"; }
+.ink-arrow-right:before { content: "\f10b"; }
+.ink-arrow-up:before { content: "\f10c"; }
+.ink-arrows-compress:before { content: "\f10d"; }
+.ink-arrows-expand:before { content: "\f10e"; }
+.ink-arrows-in:before { content: "\f10f"; }
+.ink-arrows-out:before { content: "\f110"; }
+.ink-asl:before { content: "\f111"; }
+.ink-asterisk:before { content: "\f112"; }
+.ink-at-sign:before { content: "\f113"; }
+.ink-background-color:before { content: "\f114"; }
+.ink-battery-empty:before { content: "\f115"; }
+.ink-battery-full:before { content: "\f116"; }
+.ink-battery-half:before { content: "\f117"; }
+.ink-bitcoin-circle:before { content: "\f118"; }
+.ink-bitcoin:before { content: "\f119"; }
+.ink-blind:before { content: "\f11a"; }
+.ink-bluetooth:before { content: "\f11b"; }
+.ink-bold:before { content: "\f11c"; }
+.ink-book-bookmark:before { content: "\f11d"; }
+.ink-book:before { content: "\f11e"; }
+.ink-bookmark:before { content: "\f11f"; }
+.ink-braille:before { content: "\f120"; }
+.ink-burst-new:before { content: "\f121"; }
+.ink-burst-sale:before { content: "\f122"; }
+.ink-burst:before { content: "\f123"; }
+.ink-calendar:before { content: "\f124"; }
+.ink-camera:before { content: "\f125"; }
+.ink-check:before { content: "\f126"; }
+.ink-checkbox:before { content: "\f127"; }
+.ink-clipboard-notes:before { content: "\f128"; }
+.ink-clipboard-pencil:before { content: "\f129"; }
+.ink-clipboard:before { content: "\f12a"; }
+.ink-clock:before { content: "\f12b"; }
+.ink-closed-caption:before { content: "\f12c"; }
+.ink-cloud:before { content: "\f12d"; }
+.ink-comment-minus:before { content: "\f12e"; }
+.ink-comment-quotes:before { content: "\f12f"; }
+.ink-comment-video:before { content: "\f130"; }
+.ink-comment:before { content: "\f131"; }
+.ink-comments:before { content: "\f132"; }
+.ink-compass:before { content: "\f133"; }
+.ink-contrast:before { content: "\f134"; }
+.ink-credit-card:before { content: "\f135"; }
+.ink-crop:before { content: "\f136"; }
+.ink-crown:before { content: "\f137"; }
+.ink-css3:before { content: "\f138"; }
+.ink-database:before { content: "\f139"; }
+.ink-die-inkve:before { content: "\f13a"; }
+.ink-die-four:before { content: "\f13b"; }
+.ink-die-one:before { content: "\f13c"; }
+.ink-die-six:before { content: "\f13d"; }
+.ink-die-three:before { content: "\f13e"; }
+.ink-die-two:before { content: "\f13f"; }
+.ink-dislike:before { content: "\f140"; }
+.ink-dollar-bill:before { content: "\f141"; }
+.ink-dollar:before { content: "\f142"; }
+.ink-download:before { content: "\f143"; }
+.ink-eject:before { content: "\f144"; }
+.ink-elevator:before { content: "\f145"; }
+.ink-euro:before { content: "\f146"; }
+.ink-eye:before { content: "\f147"; }
+.ink-fast-forward:before { content: "\f148"; }
+.ink-female-symbol:before { content: "\f149"; }
+.ink-female:before { content: "\f14a"; }
+.ink-inklter:before { content: "\f14b"; }
+.ink-inkrst-aid:before { content: "\f14c"; }
+.ink-flag:before { content: "\f14d"; }
+.ink-folder-add:before { content: "\f14e"; }
+.ink-folder-lock:before { content: "\f14f"; }
+.ink-folder:before { content: "\f150"; }
+.ink-foot:before { content: "\f151"; }
+.ink-foundation:before { content: "\f152"; }
+.ink-graph-bar:before { content: "\f153"; }
+.ink-graph-horizontal:before { content: "\f154"; }
+.ink-graph-pie:before { content: "\f155"; }
+.ink-graph-trend:before { content: "\f156"; }
+.ink-guide-dog:before { content: "\f157"; }
+.ink-hearing-aid:before { content: "\f158"; }
+.ink-heart:before { content: "\f159"; }
+.ink-home:before { content: "\f15a"; }
+.ink-html5:before { content: "\f15b"; }
+.ink-indent-less:before { content: "\f15c"; }
+.ink-indent-more:before { content: "\f15d"; }
+.ink-info:before { content: "\f15e"; }
+.ink-italic:before { content: "\f15f"; }
+.ink-key:before { content: "\f160"; }
+.ink-laptop:before { content: "\f161"; }
+.ink-layout:before { content: "\f162"; }
+.ink-lightbulb:before { content: "\f163"; }
+.ink-like:before { content: "\f164"; }
+.ink-link:before { content: "\f165"; }
+.ink-list-bullet:before { content: "\f166"; }
+.ink-list-number:before { content: "\f167"; }
+.ink-list-thumbnails:before { content: "\f168"; }
+.ink-list:before { content: "\f169"; }
+.ink-lock:before { content: "\f16a"; }
+.ink-loop:before { content: "\f16b"; }
+.ink-magnifying-glass:before { content: "\f16c"; }
+.ink-mail:before { content: "\f16d"; }
+.ink-male-female:before { content: "\f16e"; }
+.ink-male-symbol:before { content: "\f16f"; }
+.ink-male:before { content: "\f170"; }
+.ink-map:before { content: "\f171"; }
+.ink-marker:before { content: "\f172"; }
+.ink-megaphone:before { content: "\f173"; }
+.ink-microphone:before { content: "\f174"; }
+.ink-minus-circle:before { content: "\f175"; }
+.ink-minus:before { content: "\f176"; }
+.ink-mobile-signal:before { content: "\f177"; }
+.ink-mobile:before { content: "\f178"; }
+.ink-monitor:before { content: "\f179"; }
+.ink-mountains:before { content: "\f17a"; }
+.ink-music:before { content: "\f17b"; }
+.ink-next:before { content: "\f17c"; }
+.ink-no-dogs:before { content: "\f17d"; }
+.ink-no-smoking:before { content: "\f17e"; }
+.ink-page-add:before { content: "\f17f"; }
+.ink-page-copy:before { content: "\f180"; }
+.ink-page-csv:before { content: "\f181"; }
+.ink-page-delete:before { content: "\f182"; }
+.ink-page-doc:before { content: "\f183"; }
+.ink-page-edit:before { content: "\f184"; }
+.ink-page-export-csv:before { content: "\f185"; }
+.ink-page-export-doc:before { content: "\f186"; }
+.ink-page-export-pdf:before { content: "\f187"; }
+.ink-page-export:before { content: "\f188"; }
+.ink-page-inklled:before { content: "\f189"; }
+.ink-page-multiple:before { content: "\f18a"; }
+.ink-page-pdf:before { content: "\f18b"; }
+.ink-page-remove:before { content: "\f18c"; }
+.ink-page-search:before { content: "\f18d"; }
+.ink-page:before { content: "\f18e"; }
+.ink-paint-bucket:before { content: "\f18f"; }
+.ink-paperclip:before { content: "\f190"; }
+.ink-pause:before { content: "\f191"; }
+.ink-paw:before { content: "\f192"; }
+.ink-paypal:before { content: "\f193"; }
+.ink-pencil:before { content: "\f194"; }
+.ink-photo:before { content: "\f195"; }
+.ink-play-circle:before { content: "\f196"; }
+.ink-play-video:before { content: "\f197"; }
+.ink-play:before { content: "\f198"; }
+.ink-plus:before { content: "\f199"; }
+.ink-pound:before { content: "\f19a"; }
+.ink-power:before { content: "\f19b"; }
+.ink-previous:before { content: "\f19c"; }
+.ink-price-tag:before { content: "\f19d"; }
+.ink-pricetag-multiple:before { content: "\f19e"; }
+.ink-print:before { content: "\f19f"; }
+.ink-prohibited:before { content: "\f1a0"; }
+.ink-projection-screen:before { content: "\f1a1"; }
+.ink-puzzle:before { content: "\f1a2"; }
+.ink-quote:before { content: "\f1a3"; }
+.ink-record:before { content: "\f1a4"; }
+.ink-refresh:before { content: "\f1a5"; }
+.ink-results-demographics:before { content: "\f1a6"; }
+.ink-results:before { content: "\f1a7"; }
+.ink-rewind-ten:before { content: "\f1a8"; }
+.ink-rewind:before { content: "\f1a9"; }
+.ink-rss:before { content: "\f1aa"; }
+.ink-safety-cone:before { content: "\f1ab"; }
+.ink-save:before { content: "\f1ac"; }
+.ink-share:before { content: "\f1ad"; }
+.ink-sheriff-badge:before { content: "\f1ae"; }
+.ink-shield:before { content: "\f1af"; }
+.ink-shopping-bag:before { content: "\f1b0"; }
+.ink-shopping-cart:before { content: "\f1b1"; }
+.ink-shuffle:before { content: "\f1b2"; }
+.ink-skull:before { content: "\f1b3"; }
+.ink-social-500px:before { content: "\f1b4"; }
+.ink-social-adobe:before { content: "\f1b5"; }
+.ink-social-amazon:before { content: "\f1b6"; }
+.ink-social-android:before { content: "\f1b7"; }
+.ink-social-apple:before { content: "\f1b8"; }
+.ink-social-behance:before { content: "\f1b9"; }
+.ink-social-bing:before { content: "\f1ba"; }
+.ink-social-blogger:before { content: "\f1bb"; }
+.ink-social-delicious:before { content: "\f1bc"; }
+.ink-social-designer-news:before { content: "\f1bd"; }
+.ink-social-deviant-art:before { content: "\f1be"; }
+.ink-social-digg:before { content: "\f1bf"; }
+.ink-social-dribbble:before { content: "\f1c0"; }
+.ink-social-drive:before { content: "\f1c1"; }
+.ink-social-dropbox:before { content: "\f1c2"; }
+.ink-social-evernote:before { content: "\f1c3"; }
+.ink-social-facebook:before { content: "\f1c4"; }
+.ink-social-flickr:before { content: "\f1c5"; }
+.ink-social-forrst:before { content: "\f1c6"; }
+.ink-social-foursquare:before { content: "\f1c7"; }
+.ink-social-game-center:before { content: "\f1c8"; }
+.ink-social-github:before { content: "\f1c9"; }
+.ink-social-google-plus:before { content: "\f1ca"; }
+.ink-social-hacker-news:before { content: "\f1cb"; }
+.ink-social-hi5:before { content: "\f1cc"; }
+.ink-social-instagram:before { content: "\f1cd"; }
+.ink-social-joomla:before { content: "\f1ce"; }
+.ink-social-lastfm:before { content: "\f1cf"; }
+.ink-social-linkedin:before { content: "\f1d0"; }
+.ink-social-medium:before { content: "\f1d1"; }
+.ink-social-myspace:before { content: "\f1d2"; }
+.ink-social-orkut:before { content: "\f1d3"; }
+.ink-social-path:before { content: "\f1d4"; }
+.ink-social-picasa:before { content: "\f1d5"; }
+.ink-social-pinterest:before { content: "\f1d6"; }
+.ink-social-rdio:before { content: "\f1d7"; }
+.ink-social-reddit:before { content: "\f1d8"; }
+.ink-social-skillshare:before { content: "\f1d9"; }
+.ink-social-skype:before { content: "\f1da"; }
+.ink-social-smashing-mag:before { content: "\f1db"; }
+.ink-social-snapchat:before { content: "\f1dc"; }
+.ink-social-spotify:before { content: "\f1dd"; }
+.ink-social-squidoo:before { content: "\f1de"; }
+.ink-social-stack-overflow:before { content: "\f1df"; }
+.ink-social-steam:before { content: "\f1e0"; }
+.ink-social-stumbleupon:before { content: "\f1e1"; }
+.ink-social-treehouse:before { content: "\f1e2"; }
+.ink-social-tumblr:before { content: "\f1e3"; }
+.ink-social-twitter:before { content: "\f1e4"; }
+.ink-social-vimeo:before { content: "\f1e5"; }
+.ink-social-windows:before { content: "\f1e6"; }
+.ink-social-xbox:before { content: "\f1e7"; }
+.ink-social-yahoo:before { content: "\f1e8"; }
+.ink-social-yelp:before { content: "\f1e9"; }
+.ink-social-youtube:before { content: "\f1ea"; }
+.ink-social-zerply:before { content: "\f1eb"; }
+.ink-social-zurb:before { content: "\f1ec"; }
+.ink-sound:before { content: "\f1ed"; }
+.ink-star:before { content: "\f1ee"; }
+.ink-stop:before { content: "\f1ef"; }
+.ink-strikethrough:before { content: "\f1f0"; }
+.ink-subscript:before { content: "\f1f1"; }
+.ink-superscript:before { content: "\f1f2"; }
+.ink-tablet-landscape:before { content: "\f1f3"; }
+.ink-tablet-portrait:before { content: "\f1f4"; }
+.ink-target-two:before { content: "\f1f5"; }
+.ink-target:before { content: "\f1f6"; }
+.ink-telephone-accessible:before { content: "\f1f7"; }
+.ink-telephone:before { content: "\f1f8"; }
+.ink-text-color:before { content: "\f1f9"; }
+.ink-thumbnails:before { content: "\f1fa"; }
+.ink-ticket:before { content: "\f1fb"; }
+.ink-torso-business:before { content: "\f1fc"; }
+.ink-torso-female:before { content: "\f1fd"; }
+.ink-torso:before { content: "\f1fe"; }
+.ink-torsos-all-female:before { content: "\f1ff"; }
+.ink-torsos-all:before { content: "\f200"; }
+.ink-torsos-female-male:before { content: "\f201"; }
+.ink-torsos-male-female:before { content: "\f202"; }
+.ink-torsos:before { content: "\f203"; }
+.ink-trash:before { content: "\f204"; }
+.ink-trees:before { content: "\f205"; }
+.ink-trophy:before { content: "\f206"; }
+.ink-underline:before { content: "\f207"; }
+.ink-universal-access:before { content: "\f208"; }
+.ink-unlink:before { content: "\f209"; }
+.ink-unlock:before { content: "\f20a"; }
+.ink-upload-cloud:before { content: "\f20b"; }
+.ink-upload:before { content: "\f20c"; }
+.ink-usb:before { content: "\f20d"; }
+.ink-video:before { content: "\f20e"; }
+.ink-volume-none:before { content: "\f20f"; }
+.ink-volume-strike:before { content: "\f210"; }
+.ink-volume:before { content: "\f211"; }
+.ink-web:before { content: "\f212"; }
+.ink-wheelchair:before { content: "\f213"; }
+.ink-widget:before { content: "\f214"; }
+.ink-wrench:before { content: "\f215"; }
+.ink-x-circle:before { content: "\f216"; }
+.ink-x:before { content: "\f217"; }
+.ink-yen:before { content: "\f218"; }
+.ink-zoom-in:before { content: "\f219"; }
+.ink-zoom-out:before { content: "\f21a"; }
