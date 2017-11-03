@@ -1,3 +1,4 @@
+highlighter: rogue
 name: Tactile Theme
 kramdown: redcarpet
 pygments: true
