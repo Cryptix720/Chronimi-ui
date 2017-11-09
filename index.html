@@ -23,19 +23,29 @@
   <script src="distro/chronimi.js"></script>
   <script src="distro/chronimi.min.js"></script>
   
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="src/definitions/elements/button.less" />
+      <link rel="stylesheet" type="text/css" href="  https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-grid.min.css" />
 
+  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-grid.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/js/jquery-1.8.3.min.js"></script>
+  
 <!-- fonts -->
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+blue" rel="stylesheet">
 <link rel="shortcut icon" type="image/png" href="img/chronimi.png"/>
 </head>
-<body id="example" class="index">
+<body id="example" class="index" ontouchstart="">
 <!-- 
 ===============
 NavBar
 ===============
 -->
+
 
 <nav class="grouping">
 <figure class="boxy">
@@ -46,15 +56,15 @@ NavBar
 
 	<ul class="primary-nav grouping">
 		<li><a href="#" class="taglin">Home</a></li>
-		<li class="has-submenu"><a class="taglin" href="">Menu</a>
+		<li class="has-submenu"><a class="taglin" href="#">Menu</a>
 			<ul>
 			
 				<li class="taglin"><a class="taglin" href="introduction/getting-started.html">Let's get started</a></li>
-				<li class="taglin"><a class="taglin" href="">Usage</a></li>
-				<li class="taglin"><a class="taglin" href="">Open Theming</a></li>
+				<li class="taglin"><a class="taglin" href="usage/layout.html">Layout</a></li>
+				<li class="taglin"><a class="taglin" href="usage/theming.html">Open Theming</a></li>
 			</ul>
 		</li>
-	<li class="has-submenu"><a class="taglin" href="">Files</a>
+	<li class="has-submenu"><a class="taglin" href="#">Files</a>
 			<ul>
 			
 				<li class="taglin"><a class="taglin" href="introduction/getting-started.html"> Recipes</a></li>
@@ -69,23 +79,28 @@ NavBar
 	</ul>
 </nav>
 
-<!-- Intro Section -->
 
-<section class="grouping mando" align="center">
+<!-- Intro Section -->
+	<main>
+
+	<section class="grouping mando" align="center">
 	<div class="wrapper" align="center">
-		<div class="intro-content">
-	<a align="center" src="https://img.shields.io/twitter/url/https/github.com/Cryptix720/Chronimi.svg?style=social">
+  <div id="column mando">
+    <div class="inner mando">
+      <header>
+   <a align="center" src="https://img.shields.io/twitter/url/https/github.com/Cryptix720/Chronimi.svg?style=social">
 	</a>
 	
 		 <a class="ui black version label" href="https://github.com/Cryptix720/Chronimi-ui/">
       1.0.0
       </a>
 
-      
+     
   
-	 
- <h1  data-text="Chronimi" class="tagline" style="font-size:120px;">Chronimi
-			  	<p class="tagline" align="center">User interface in the very direction of creation.</p>
+	 <IMG class="displayed" src="img/chronimi.png" alt="Chronimi">
+ <h1  data-text="Chronimi" class="tagline inverted header uio"><span class="library">
+ Chronimi</span>
+			  	<p class="taglin" align="center">User interface in the very direction of creation.</p>
 
 
 			<a href="introduction/getting-started.html" class="call-to-action"><h2 class="taglin">Let's get flowing</h2></a>
@@ -93,6 +108,43 @@ NavBar
 
 
 			  </h1>  
+</section>
+</div>
+
+</div>
+</div>
+
+
+</main>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Examples?</a>
+
+</div>
+
+
+
+<label class="switch">
+
+<input type="checkbox">
+  <span class="slider round" onclick="closeNav()"></span>
+</label>
+
+<label class="switch">
+<input type="checkbox" checked>
+  <span class="round" id="slider1" onclick="openNav()"></span>
+</label>
+
+<main>
+    <div class="ui black inverted">
+	
+<section class="grouping mando" align="center">
+	<div class="wrapper" align="center">
+	<div id="column mando">
+		<div class="intro-content">
+	
 	
 		</div>
 		
@@ -101,6 +153,10 @@ NavBar
 
 
 </section>
+</div>
+</div>
+</main>
+
 
 <!-- end section -->
 <!-- 
@@ -161,16 +217,12 @@ Download section
           });
       }
 	  
-	  OneSignal.push(["init", {
-    welcomeNotification: {
-        disable: true
-    }
-}]);
+
 
 OneSignal.push(["init", {
     /* Your other init options here */
     welcomeNotification: {
-        "title": "My Custom Title",
+        "title": "Hello chronimi user",
         "message": "Thanks for subscribing!",
         // "url": "" /* Leave commented for the notification to not open a window on Chrome and Firefox (on Safari, it opens to your webpage) */
     }
@@ -182,16 +234,19 @@ OneSignal.push(["init", {
 <!---DropList----->
 
   	<hr>
+	<main>
 	<footer>
+	<section class="grouping mando" align="center">
+	<div class="wrapper" align="center">
   <div id="column mando">
     <div class="inner mando">
       <header>
-        <h1 class="tagline">Chronimi Theme
+        <h1 class="tagline uio">Chronimi Theme
 
 		</h1>
         <h2 class="tagline">Open Source version of the GitHub Pages theme</h2>
       </header>
-
+<div class="wrapper" align="center">
       <section id="downloads" class="clearfix">
 	  <br>
    <a href="https://github.com/Cryptix720/Chronimi-ui/raw/master/chronimi.rar" id="download-zip" class="button"><span>Download .zip</span></a>
@@ -199,9 +254,13 @@ OneSignal.push(["init", {
     <a href="https://github.com/Cryptix720/Chronimi-ui/" id="view-on-github" class="button"><span>View on GitHub</span></a>
 	<br>
 </section>
+</div>
+
+</div>
+</div>
 </footer>
 
-
+</main>
 <!-- 
 ================ 
 Footer
@@ -222,7 +281,7 @@ Footer
 			<li class="list-heading">Interwebs</li>
 			<div class="verticLine">
 			<li><a href="https://github.com/Cryptix720/Chronimi-ui"><span color="#f2b632" class="icon ink-social-github"></span>Github</a></li>
-			<li><a href="https://www.npmjs.com/package/chronimi"><span color="#f2b632" class="icon icon-npm"></span>NPM</a></li>
+			<li><a href="https://www.npmjs.com/package/chronimi"><span color="#f2b632" class="icon ink-npm"></span>NPM</a></li>
 		</div>
 
 		</ul>
@@ -301,6 +360,15 @@ copyBtn.addEventListener('click', function(event) {
 
 </script>
 <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "320px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script>
 (function($) {  /**   * Copyright 2012, Digital Fusion   * Licensed under the MIT license.   * http://teamdf.com/jquery-plugins/license/   *   * @author Sam Sehnert   * @desc A small plugin that checks whether elements are within   *     the user visible viewport of a web browser.   *     only accounts for vertical position, not horizontal.   */  $.fn.visible = function(partial) {          var $t            = $(this),          $w            = $(window),          viewTop       = $w.scrollTop(),          viewBottom    = viewTop + $w.height(),          _top          = $t.offset().top,          _bottom       = _top + $t.height(),          compareTop    = partial === true ? _bottom : _top,          compareBottom = partial === true ? _top : _bottom;        return ((compareBottom <= viewBottom) && (compareTop >= viewTop));  };    })(jQuery);var win = $(window);var allMods = $(".module");allMods.each(function(i, el) {  var el = $(el);  if (el.visible(true)) {    el.addClass("already-visible");   } });win.scroll(function(event) {    allMods.each(function(i, el) {    var el = $(el);    if (el.visible(true)) {      el.addClass("come-in");     }   });  });
 </script>
  <script src="lumps/less.min.js"></script>
@@ -311,6 +379,11 @@ copyBtn.addEventListener('click', function(event) {
   <script src="distro/chronimi.min.js"></script>
   <script src="distro/chronimi.js"></script>
   
+    <link rel="stylesheet" type="text/css" href="../distro/chronimi.css">
+      <link rel="stylesheet" type="text/css" href="../distro/chronimi.min.css">
+	  
+
+<script src="https://raw.githubusercontent.com/Cryptix720/Chronimi/master/distro/chronimi.js"></script>  
  
    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
