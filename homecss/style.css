@@ -7,6 +7,36 @@
  * http://opensource.org/licenses/MIT
  *
  */
+ @font-face {
+  font-family: 'icomoon';
+  src:  url('../icons/icomoon.eot?ykx0oe');
+  src:  url('../icons/icomoon.eot?ykx0oe#iefix') format('embedded-opentype'),
+    url('../icons/icomoon.ttf?ykx0oe') format('truetype'),
+    url('../icons/icomoon.woff?ykx0oe') format('woff'),
+    url('../icons/icomoon.svg?ykx0oe#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change icons */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-npm:before {
+  content: "\eab1";
+}
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -2213,6 +2243,13 @@ footer li, footer p {
 footer li {
   margin-bottom: 10px;
 }
+/*mandoBlue*/
+
+.mando{
+	
+	background-color: #252839;
+	
+}
 
 .legal-copy {
   text-align: right;
@@ -2225,6 +2262,7 @@ footer li {
     float: none;
     padding-bottom: 0;
     margin-bottom: 30px;
+
   }
 
   .go-premium {
