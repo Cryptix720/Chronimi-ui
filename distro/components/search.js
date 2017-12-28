@@ -1263,7 +1263,10 @@ $.fn.search.settings = {
 
   regExp: {
     escape     : /[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g,
-    beginsWith : '(?:\s|^)'
+    beginsWith : '(?:\s|^)',
+    bracket : /\[(.*)\]/i,
+    decimal : /^\d+\.?\d*$/,
+    email   : /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i
   },
 
   // maps api response attributes to internal representation
